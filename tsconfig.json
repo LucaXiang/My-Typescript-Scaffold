@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "types": ["node","jest"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+}
